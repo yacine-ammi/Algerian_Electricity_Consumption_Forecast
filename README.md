@@ -12,8 +12,8 @@ The residuals of the model were analyzed for white noise properties and autocorr
 The analysis indicated that the best model for this dataset was an ARIMA(1,1,1) with an AIC of 490.59. The residuals of the model showed white noise properties with no significant autocorrelation. The data did not exhibit significant heteroskedasticity.
 
 ## Project Structure
-- `data`: contains the raw dataset
-- `notebooks`: contains Jupyter notebooks for data preprocessing, EDA, and modeling.
+- [`data`](https://github.com/yacine-ammi/Algerian_Electricity_Consumption_Forecast/blob/main/Algeria%20electricity%20consumption%201971-2019.csv): contains the raw dataset
+- [`notebook`](https://github.com/yacine-ammi/Algerian_Electricity_Consumption_Forecast/blob/main/electricity-consumption-forecast.ipynb): contains Jupyter notebooks for data preprocessing, EDA, and modeling.
 
 ## Conclusion
 The time series analysis showed that the electricity consumption per person data was best modeled using an ARIMA(1,1,1) model. The residuals of the model showed white noise properties with no significant autocorrelation, and the data did not exhibit significant heteroskedasticity.
